@@ -1,0 +1,57 @@
+/*User Story 1*/
+h1,h2,h3,h4,h5,h6{
+  font-family: sans-serif;
+  color: #2DD;
+}
+/*User Story 2*/
+th {
+  font-weight: bold;
+  color: GREEN;
+}
+#scoreBoard {
+  border-width: medium;
+  border-style: solid;
+  text-align: center;
+}
+/*User Story 3*/
+li {
+  list-style: square;
+}
+/*User Story 4*/
+a:hover {
+  text-decoration: none;
+  background-color: #dfd;
+}
+/*User Story 5*/
+blockquote {
+  background-color: #333;
+  color: #ddd;
+}
+/*User Story 6*/
+/*I am not sure if there was a way to use
+ an existing img tag as a background, but
+since the height was set in the html file,
+ this seemed like the best way to do it*/
+#teamRoster > li{
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#teamRoster > li:first-child {
+  background-image: url(https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg);
+}
+#teamRoster > li:last-child {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg);
+}
+
+img:first-child{
+  display: none;
+}
+
+/*User Story 7*/
+#checkbox-grid li {
+  list-style: none;
+}
+/*Stretch goals*/
+#teamRoster ol li:first-child{
+  font-weight: bold;
+}
